@@ -1,0 +1,10 @@
+.dropUserCustom .ant-btn-variant-outlined, .ant-btn-variant-dashed{
+    border: 1px solid var(--custom-color);
+    color:var(--custom-color);
+}
+
+.dropUserCustom .ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, .ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #7500CF;
+    border: 1px solid #7500CF;
+    background: #ffffff;
+}

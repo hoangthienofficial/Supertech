@@ -1,0 +1,33 @@
+.contact-page {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-header {
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.google-map {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.contact-icon {
+  color: #2563eb;
+  margin-right: 12px;
+}

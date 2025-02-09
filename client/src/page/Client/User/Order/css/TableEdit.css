@@ -1,0 +1,89 @@
+
+.tableEdit .ant-table-wrapper .ant-table-thead >tr>th,.tableEdit .ant-table-wrapper .ant-table-thead >tr>td {
+    background: var(--custom-color);
+color:white;
+text-align: center;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.tableEdit .ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before,
+.tableEdit .ant-table-wrapper .ant-table-thead >tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    background: none;
+}
+
+.tableEdit .ant-table-wrapper .ant-table-tbody >tr >th,
+.tableEdit .ant-table-wrapper .ant-table-tbody >tr >td {
+    text-align: center;
+}
+
+.table-detail-order .anticon svg,
+.tableEdit .anticon svg {
+    color: #7500CF;
+}
+
+.tableEdit .ant-pagination .ant-pagination-item-active {
+    background-color: #7500CF;
+    color: white;
+    border-color: #7500CF;
+}
+
+.tableEdit .ant-pagination .ant-pagination-item-active a {
+    color: white;
+}
+
+.table-detail-order .ant-table-wrapper {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.table-detail-order .ant-table-wrapper .ant-table-thead >tr>th,
+.tableEdit .ant-table-wrapper .ant-table-thead >tr>td {
+    background: white;
+    text-align: center;
+}
+
+.table-detail-order .ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before,
+.tableEdit .ant-table-wrapper .ant-table-thead >tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    background: none;
+}
+
+.table-detail-order .ant-pagination .ant-pagination-item-active {
+    background-color: #7500CF;
+    color: white;
+    border-color: #7500CF;
+}
+
+.table-detail-order .ant-pagination .ant-pagination-item-active a {
+    color: white;
+}
+
+
+/* Tùy chỉnh thanh cuộn */
+.scrollbar-custom::-webkit-scrollbar {
+    height: 8px; /* Chiều cao thanh cuộn ngang */
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: #cccccc; /* Màu thanh cuộn */
+    border-radius: 4px; /* Bo tròn */
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: #a0a0a0; /* Màu khi hover */
+  }
+  
+  /* Đảm bảo bảng trông đẹp trên các màn hình nhỏ */
+  .tableEdit {
+    max-width: 100%;
+  }
+  
+  .tableEdit table {
+    min-width: 600px; /* Đặt chiều rộng tối thiểu cho bảng */
+  }
+  
+  .tableEdit th,
+  .tableEdit td {
+    white-space: nowrap; /* Không xuống dòng nội dung */
+    min-width: 120px; /* Kích thước tối thiểu của cột */
+    text-align: center; /* Căn giữa nội dung */
+  }
+  

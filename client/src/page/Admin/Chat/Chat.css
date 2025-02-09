@@ -1,0 +1,21 @@
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.linear-gradient1{
+  background: linear-gradient(to right, #ffbf96, #fe7096) !important
+}
+
+.linear-gradient{
+  background:  linear-gradient(to right, #da8cff, #9a55ff) !important;
+}
+
+.box-shadow{
+ box-shadow: 0px 3px 8.3px 0.7px rgba(163, 93, 255, 0.35);
+
+}

@@ -1,0 +1,51 @@
+.sign-edit .ant-form-item .ant-form-item-label {
+
+    text-align: start;
+    font-weight: 600;
+ 
+
+}
+.sign-edit :where(.css-dev-only-do-not-override-5wsri9).ant-form-item .ant-form-item-label >label{
+    font-size: 1.7rem;
+}
+.sign-edit.ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label, :where(.css-dev-only-do-not-override-5wsri9).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-24.ant-form-item-label, :where(.css-dev-only-do-not-override-5wsri9).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-xl-24.ant-form-item-label{
+    padding: 0 0 2px;
+}
+.sign-edit .ant-row{
+    display: block;
+}
+.sign-edit .ant-btn-variant-solid{
+    background-color: #7500CF;
+    color: white;
+}
+.sign-edit .ant-input-outlined,
+.sign-edit .ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector,
+.sign-edit .ant-input-number-outlined
+{
+    border-color:#7500CF ;
+    height: 4rem;
+}
+.sign-edit :where(.css-dev-only-do-not-override-5wsri9).ant-select .ant-select-arrow{
+    color: #7500CF;
+}
+.sign-edit :where(.css-dev-only-do-not-override-5wsri9).ant-form-item{
+    /* margin-bottom: 1rem; */
+}
+.sign-edit :where(.css-dev-only-do-not-override-5wsri9).ant-radio-wrapper .ant-radio-checked .ant-radio-inner{
+    border-color: #7500CF;
+    background: #7500CF;
+}
+.sign-edit .ant-steps .ant-steps-item-process .ant-steps-item-icon{
+    border-color: #7500CF;
+    background: #7500CF;  
+}
+.sign-edit .ant-progress .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path{
+    stroke: #7500CF;
+}
+.sign-edit .ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary){
+    height: 37px;
+    border-color: #7500CF;
+    color: #7500CF;
+    
+
+}

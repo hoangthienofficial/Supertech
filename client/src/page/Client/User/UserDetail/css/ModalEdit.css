@@ -1,0 +1,39 @@
+.button-edit .ant-btn-variant-outlined, :where(.css-dev-only-do-not-override-5wsri9).ant-btn-variant-dashed{
+    border:1px solid var(--custom-color);
+    color:#7500CF;
+}
+.button-edit .ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-dev-only-do-not-override-5wsri9).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #6308a8;
+    border-color: #6308a8;
+    background: #ffffff;
+}
+.button-edit .ant-btn-variant-solid {
+    background: #7500CF;
+    color: white;
+}
+
+.button-edit .ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+    background: #6308a8;
+    color: #fff;
+}
+.modal-edit.ant-modal .ant-modal-footer{
+    display: none;
+}
+:where(.css-dev-only-do-not-override-ni1kz0).ant-form-item{
+margin-bottom: 10px;    
+}
+.button-one.ant-btn-variant-solid {
+    background-color: var(--custom-color);
+    color:white;
+    padding: 1.8rem 0;
+}
+.button-one :where(.css-dev-only-do-not-override-ni1kz0).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+    color: white;
+    background-color: var(--custom-color);
+    
+
+}
+.button-one .ant-btn-variant-solid {
+    background: #7500CF;
+    color: white;
+}

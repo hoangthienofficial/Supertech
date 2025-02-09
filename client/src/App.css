@@ -1,0 +1,11 @@
+:root {
+  --custom-color: blue; /* Màu mặc định */
+}
+
+.color-custom {
+  background-color: var(--custom-color); /* Sử dụng biến màu */
+}
+
+.text-custom {
+  color: var(--custom-color); /* Sử dụng biến màu cho văn bản */
+}
