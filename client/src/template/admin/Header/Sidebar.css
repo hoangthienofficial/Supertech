@@ -1,9 +1,0 @@
-/* Tùy chỉnh thanh cuộn */
-.scrollbar-custom {
-    overflow-y: auto; /* Hiển thị thanh cuộn khi cần */
-}
-
-/* Kiểu cho thanh cuộn */
-.scrollbar-custom::-webkit-scrollbar {
-    display: none;
-}
