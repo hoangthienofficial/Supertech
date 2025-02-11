@@ -49,7 +49,6 @@ const corsOptions = {
   credentials: true,
 };
 // cron này chỉ chạy được trên server thôi, local tạm thời ẩn, tuyệt đối ko tắt để hạn chế tình trạng trùng lập cron giữa local
-// và server
 
 cron.schedule("* * * * *", async () => {
   console.log("Bắt đầu chạy Check Lịch Sử Giao Dịch Api Từ Phía Ngân Hàng!!!");
