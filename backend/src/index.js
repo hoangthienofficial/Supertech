@@ -42,7 +42,6 @@ const corsOptions = {
     "https://dichvumang86.net",
     "https://dichvumang86.me",
     "https://supertechh.hoangthienofficial.id.vn",
-    "103.200.23.120",
     "103.221.221.104",
     "https://api.dichvumang86.me",
     "https://supertechh.shop",
