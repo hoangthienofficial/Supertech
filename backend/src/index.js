@@ -1,5 +1,5 @@
 import express, { urlencoded } from "express";
-import userRouter from "./routers/userRouter.js";
+// import userRouter from "./routers/userRouter.js";
 import productRouter from "./routers/productRouter.js";
 import product_colorsRouter from "./routers/product_colorsRouter.js";
 import PostsRouter from "./routers/postsRouter.js";
@@ -22,7 +22,7 @@ import cors from "cors";
 import axios from "axios";
 import searchRouter from "./routers/searchproductRouter.js";
 import uploadRouter from "./routers/uploadRoutes.js";
-import uploadImgUserRouter from "./routers/uploadImageUserRoutes.js";
+// import uploadImgUserRouter from "./routers/uploadImageUserRoutes.js";
 import { app, server } from "./socker/socker.js";
 import settingRouter from "./routers/settingRouter.js";
 import autobankrouter from "./routers/bankAutoRouter.js";
