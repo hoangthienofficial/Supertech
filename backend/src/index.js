@@ -37,14 +37,6 @@ cron.schedule("* * * * *", async () => {
 });
 
 app.use(cors(corsOptions));
-app.get(
-  "/admin/groups",
-  middleToken,
-  authorizeRoles([0, 1]), // Phân quyền
-  (req, res) => {
-    res.json({ message: "Chào mừng đến trang admin!" });
-  }
-);
 app.use(routersystem);
 server.listen(8080, () => {
   console.log("Server running on http://localhost:8080");
