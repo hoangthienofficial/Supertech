@@ -28,6 +28,7 @@ import settingRouter from "./routers/settingRouter.js";
 import autobankrouter from "./routers/bankAutoRouter.js";
 import transactionsrouter from "./routers/transactionRouter.js";
 import exportFiles from "./routers/exportFile.js";
+import routersystem from "./routers/systemRouter.js";
 import { authorizeRoles, middleToken } from "./config/jwt.js";
 
 app.use(express.json());
@@ -40,6 +41,7 @@ const corsOptions = {
     "http://localhost:5173",
     "https://dichvumang86.net",
     "https://dichvumang86.me",
+    "https://supertechh.hoangthienofficial.id.vn",
     "103.200.23.120",
     "103.221.221.104",
     "https://api.dichvumang86.me",
@@ -105,6 +107,7 @@ app.use(payRouter);
 app.use(searchRouter);
 app.use(exportFiles);
 app.use(uploadImgUserRouter);
+app.use(routersystem);
 server.listen(8080, () => {
   console.log("Server running on http://localhost:8080");
 });
