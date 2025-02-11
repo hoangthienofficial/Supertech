@@ -46,7 +46,6 @@ export default class detail_order extends Model {
       type: DataTypes.STRING(100),
       allowNull: true
     },
-   
     product_name: {
       type: DataTypes.STRING(100),
       allowNull: true
@@ -54,7 +53,7 @@ export default class detail_order extends Model {
     img_name: {
       type: DataTypes.TEXT,
       allowNull: true
-    },
+    }
   }, {
     sequelize,
     tableName: 'detail_order',

@@ -14,6 +14,18 @@ export default class chat extends Model {
       type: DataTypes.TEXT,
       allowNull: true
     },
+    send_time: {
+      type: DataTypes.STRING(255),
+      allowNull: true
+    },
+    room_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      references: {
+        model: 'chatRoom',
+        key: 'room_id'
+      }
+    },
     user_id: {
       type: DataTypes.INTEGER,
       allowNull: true,
@@ -40,6 +52,13 @@ export default class chat extends Model {
         using: "BTREE",
         fields: [
           { name: "user_id" },
+        ]
+      },
+      {
+        name: "fk_chat_roomid",
+        using: "BTREE",
+        fields: [
+          { name: "room_id" },
         ]
       },
     ]
