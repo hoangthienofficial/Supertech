@@ -1,7 +1,6 @@
 import { Server } from "socket.io";
 import express from "express";
 import http from "http";
-import { deleteBlog, getBlog } from "../controllers/mediapostController.js";
 
 const app = express();
 const server = http.createServer(app);
@@ -40,7 +39,7 @@ io.on("connection", (socket) => {
 
   // Emit số lượng người dùng online tới frontend
   io.emit("getOnlineUsersCount", userSocketMap.size);
- 
+
   socket.on("disconnect", () => {
     console.log(`User disconnected: userId = ${userId}`);
     userSocketMap.delete(userId); // Xóa user khỏi map
