@@ -39,7 +39,7 @@ cron.schedule("* * * * *", async () => {
 app.use(cors(corsOptions));
 app.get(
   "/admin/groups",
-  middleToken, // Middleware kiểm tra token
+  middleToken,
   authorizeRoles([0, 1]), // Phân quyền
   (req, res) => {
     res.json({ message: "Chào mừng đến trang admin!" });
