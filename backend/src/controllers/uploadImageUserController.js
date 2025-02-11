@@ -1,6 +1,6 @@
 import cloudinary from "../config/cloudinaryConfig.js";
 import multer from "multer";
-import ImageModel from "../models/User.js";
+import ImageModel from "../models/user.js";
 import path from "path";
 import { responseSend } from "../config/response.js";
 const storage = multer.memoryStorage();
