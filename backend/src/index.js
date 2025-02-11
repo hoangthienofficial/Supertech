@@ -83,7 +83,7 @@ app.use(settingRouter);
 app.use(transactionsrouter);
 app.use(product_colorsRouter);
 app.use(autobankrouter);
-app.use(userRouter);
+// app.use(userRouter);
 app.use(uploadRouter);
 app.use(productRouter);
 app.use(product_colorsRouter);
@@ -104,7 +104,7 @@ app.use(bannerRouter);
 app.use(payRouter);
 app.use(searchRouter);
 app.use(exportFiles);
-app.use(uploadImgUserRouter);
+// app.use(uploadImgUserRouter);
 app.use(routersystem);
 server.listen(8080, () => {
   console.log("Server running on http://localhost:8080");
